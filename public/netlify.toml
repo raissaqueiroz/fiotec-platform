@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"  # ou "yarn build" se estiver usando yarn
+  publish = "build"  # Caminho para a pasta de build, altere conforme sua configuração
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = true
